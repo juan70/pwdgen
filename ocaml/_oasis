@@ -1,0 +1,12 @@
+OASISFormat: 0.4
+Name:        pwdgen
+Version:     0.1
+Synopsis:    Random password generator
+Authors:     juan70
+License:     CC-BY-NC-SA
+Executable pwdgen
+  Path:       ./src
+  BuildTools: ocamlbuild
+  MainIs:     pwdgen.ml
+  Install:    false
+  CompiledObject: best

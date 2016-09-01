@@ -1,0 +1,22 @@
+# Start by ignoring everything
+*
+
+# but directories unless they start with an underscore
+!*/
+_*/
+
+# ignore also some weird or temporary directories
+experiments/
+
+# and then whitelist the files and extensions we need
+!.gitignore
+!*.md
+!*.ml
+!_oasis
+
+# ignore oasis-generated files
+setup.ml
+myocamlbuild.ml
+*.native
+*.byte
+
